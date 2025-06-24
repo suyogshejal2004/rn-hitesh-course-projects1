@@ -6,13 +6,10 @@ A cross-platform (iOS & Android) mobile app built using **React Native** that de
 ## 📸 Screenshots
 
 
-
+![Image](https://github.com/user-attachments/assets/d226634c-c497-46cf-b85c-c7c7c18a9ef3)
 
 ![Image](https://github.com/user-attachments/assets/6ea15227-d9df-44ff-84e7-a5d73618dc8b)
 
-![Image](https://github.com/user-attachments/assets/ec4ba81d-0038-414a-9e3b-4f332351fb6f)
-
-![Image](https://github.com/user-attachments/assets/d226634c-c497-46cf-b85c-c7c7c18a9ef3)
 
 ![Image](https://github.com/user-attachments/assets/3d6380b5-9e31-40bd-acaa-b7ba663e5870)
 
