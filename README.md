@@ -1,98 +1,121 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 📱 React Native UI Showcase App
 
-# Getting Started
+A cross-platform (iOS & Android) mobile app built using **React Native** that demonstrates custom components like cards, lists, blog sections, and trending UI sections. This is part of my learning journey into React Native development.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
+## 📸 Screenshots
 
-## Step 1: Start Metro
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
 
-```sh
-# Using npm
-npm start
+![Image](https://github.com/user-attachments/assets/6ea15227-d9df-44ff-84e7-a5d73618dc8b)
 
-# OR using Yarn
-yarn start
+![Image](https://github.com/user-attachments/assets/ec4ba81d-0038-414a-9e3b-4f332351fb6f)
+
+![Image](https://github.com/user-attachments/assets/d226634c-c497-46cf-b85c-c7c7c18a9ef3)
+
+![Image](https://github.com/user-attachments/assets/3d6380b5-9e31-40bd-acaa-b7ba663e5870)
+
+![Image](https://github.com/user-attachments/assets/d9329622-6d3e-4630-84ca-17dcd55cd687)
+
+![Image](https://github.com/user-attachments/assets/6e4c3125-cceb-45ac-a86a-2b60e887c564)
+---
+
+## 🚀 Features
+
+* 🟥 Flat color cards with elevation
+* 🟫 Horizontally scrollable elevated cards
+* 🏨 Trending Places card with an image and description
+* 🧾 Blog section with image, text, and buttons
+* 👤 Contact list with local and remote profile pictures
+* 🌙 Dark background theme with styled components
+
+---
+
+## 🔧 Tech Stack
+
+* React Native (CLI)
+* JavaScript (ES6+)
+* Flexbox for layout
+* ScrollView & FlatList
+* SafeAreaView
+* Image, TouchableOpacity, Linking
+
+---
+
+## 📂 Folder Structure
+
+```
+AwesomeProject/
+├── App.js
+├── components/
+│   ├── Flatcards.js
+│   ├── ElevatedCards.js
+│   ├── TrendingPlaces.js
+│   ├── BlogCard.js
+│   └── ContactList.js
+└── assets/
+    └── photo/
+        └── image.png
 ```
 
-## Step 2: Build and run your app
+---
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
 
-### Android
 
-```sh
-# Using npm
-npm run android
+## ⚙️ How to Run the App
 
-# OR using Yarn
-yarn android
+### 1. Clone this repo
+
+```bash
+git clone https://github.com/yourusername/ReactNativeShowcaseApp.git
+cd ReactNativeShowcaseApp
 ```
 
-### iOS
+### 2. Install dependencies
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
+```bash
+npm install
 ```
 
-Then, and every time you update your native dependencies, run:
+### 3. Start Metro Bundler
 
-```sh
-bundle exec pod install
+```bash
+npx react-native start
 ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+### 4. Run on iOS
 
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
+```bash
+npx react-native run-ios
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+### 5. Run on Android
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+```bash
+npx react-native run-android
+```
 
-## Step 3: Modify your app
+> ⚠️ Make sure your emulator or physical device is set up and connected.
 
-Now that you have successfully run the app, let's make changes!
+---
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+## 🙋‍♂️ About Me
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+👨‍💻 **Suyog Shejal**
+📚 BCA Student | React Native Learner | Passionate about Mobile Dev
+🔗 [LinkedIn](https://www.linkedin.com/in/suyog-shejal-8637a3316/)
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+---
 
-## Congratulations! :tada:
+## 🪄 Acknowledgments
 
-You've successfully run and modified your React Native App. :partying_face:
+* React Native Docs
+* Free assets from Unsplash & RandomUser.me
+* Blogs and tutorials from the dev community 🙏
 
-### Now what?
+---
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+## 📃 License
 
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-# rn-hitesh-course-projects1
+MIT License (optional if you want to add)
